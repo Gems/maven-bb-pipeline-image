@@ -11,6 +11,7 @@ This repository contains a Dockerfile that builds upon the official `maven:3.9.1
 - **Maven 3.9.12**: Build automation and dependency management
 - **Amazon Corretto 21**: Production-ready OpenJDK distribution
 - **Git**: Version control system
+- **Python 3**: Programming language with pip package manager
 
 Additional tools will be added in the future to support various development workflows.
 
