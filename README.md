@@ -1,15 +1,15 @@
 # maven-bb-pipeline-image
 
-A Docker image based on Maven 3.9.12 with Amazon Corretto 21 JDK, enhanced with additional tools for Bitbucket Pipelines workflows.
+A Docker image based on Maven 3.9.12 with Eclipse Temurin 21 JDK, enhanced with additional tools for Bitbucket Pipelines workflows.
 
 ## Description
 
-This repository contains a Dockerfile that builds upon the official `maven:3.9.12-amazoncorretto-21` image and adds essential development tools. The image is designed for use in CI/CD pipelines, particularly Bitbucket Pipelines.
+This repository contains a Dockerfile that builds upon the official `maven:3.9.12-eclipse-temurin-21` image and adds essential development tools. The image is designed for use in CI/CD pipelines, particularly Bitbucket Pipelines.
 
 ## Included Tools
 
 - **Maven 3.9.12**: Build automation and dependency management
-- **Amazon Corretto 21**: Production-ready OpenJDK distribution
+- **Eclipse Temurin 21**: Production-ready OpenJDK distribution
 - **Git**: Version control system
 - **Python 3**: Programming language with pip package manager
 

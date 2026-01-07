@@ -1,9 +1,10 @@
 FROM maven:3.9.12-eclipse-temurin-21
 
-# Install git and python3 with pip using yum
-RUN yum install -y git python3 python3-pip && \
-    yum clean all && \
-    rm -rf /var/cache/yum
+# Install git and python3 with pip using apt-get
+RUN apt-get update && \
+    apt-get install -y git python3 python3-pip && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # Verify installations
 RUN mvn --version && \
